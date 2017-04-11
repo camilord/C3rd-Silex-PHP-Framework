@@ -10,9 +10,9 @@
 $db_options = array(
     'driver'    => 'pdo_mysql',
     'host'      => 'localhost',
-    'dbname'    => 'camilord_noteslocker',
-    'user'      => 'camilord_nlock',
-    'password'  => 'hsurxw49nr0Zda9PJmHsEnJAZ3fadMBY',
+    'dbname'    => 'dbname',
+    'user'      => 'username',
+    'password'  => 'secret',
     'port'      => '3306',
     'charset'   => 'utf8',
 );
@@ -20,8 +20,8 @@ if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
     $db_options = array(
         'driver'    => 'pdo_mysql',
         'host'      => 'localhost',
-        'dbname'    => 'noteslocker',
-        'user'      => 'root',
+        'dbname'    => 'dbname',
+        'user'      => 'username',
         'password'  => 'secret',
         'port'      => '3306',
         'charset'   => 'utf8',
