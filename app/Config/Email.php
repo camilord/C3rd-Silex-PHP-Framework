@@ -10,7 +10,7 @@
 $mail_options = array(
     'host' => 'mail.camilord.com',
     'port' => 25,
-    'username' => 'no-reply@camilord.com',
-    'password' => '1q2w3e4r5t',
+    'username' => 'no-reply@sample.com',
+    'password' => 'secret',
     'auth_mode' => 'smtp'
 );
